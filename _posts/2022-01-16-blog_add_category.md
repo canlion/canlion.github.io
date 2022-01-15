@@ -100,7 +100,6 @@ defaults:
         nav: "sidebar_category"  # 💥
       #########################
 ```
-dddddd
 
 ### 카테고리마다 포스트의 수 표시
 `_includes/nav_list` 수정
