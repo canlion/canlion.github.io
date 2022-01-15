@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "canlion/canlion.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/burger.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : "복습노트-개발"# overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "복습노트-개발" # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -282,12 +282,23 @@ defaults:
       path: ""
       type: posts
     values:
+      author_profile: true
+      sidebar:
+        nav: "sidebar_category"
       show_date: true
-      date_format: "%Y-%m-%d"
+      # date_format: "%Y.%m.%d"
       layout: single
       classes: wide
-      author_profile: true
       read_time: false
       comments: # true
       share: true
       related: true
+      mathjax: true
+      
+  - scope:
+      path: ""
+      type: pages
+    values:
+      author_profile: true
+      sidebar:
+        nav: "sidebar_category"

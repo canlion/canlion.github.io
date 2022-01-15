@@ -40,7 +40,8 @@
 }
 
 .site-logo img {
-  max-height: 2rem;
+  max-height: 3.2em;
+  border-radius: 15%;
 }
 
 .site-title {
@@ -50,6 +51,7 @@
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
+  font-size: 1.5em;
   // z-index: 20;
 }
 

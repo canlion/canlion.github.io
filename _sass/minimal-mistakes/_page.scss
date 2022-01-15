@@ -65,6 +65,10 @@ body {
       width: 100%;
       clear: both;
     }
+    
+    .page__taxonomy {
+      font-size: 1em;
+    }
   }
 }
 
@@ -84,7 +88,7 @@ body {
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-4;
+  font-size: $type-size-5;
 }
 
 .page__content {

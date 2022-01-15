@@ -1,12 +1,27 @@
 # main links
-main:
-  # - title: "Quick-Start Guide"
-  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+# main:
+#   - title: "Quick-Start Guide"
+#     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+#   - title: "About"
+#     url: https://mmistakes.github.io/minimal-mistakes/about/
+#   - title: "Sample Posts"
+#     url: /year-archive/
+#   - title: "Sample Collections"
+#     url: /collection-archive/
+#   - title: "Sitemap"
+#     url: /sitemap/
+sidebar_category:
+  - title: ML - Machine Learning
+  - title: ML - Deep Learning
+    children:
+      - title: "tensorflow"
+        url: /ho/
+      - title: "pytorch"
+        url: /ho/
+      - title: "BoostCamp"
+        url: categories/boostcamp
+  - title: etc..
+    children:
+      - title: "blog"
+        url: categories/blog
+      
