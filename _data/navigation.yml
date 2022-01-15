@@ -15,10 +15,10 @@ sidebar_category:
   - title: ML - Deep Learning
     children:
       - title: "tensorflow"
-        url: /ho/
+        url: categories/tensorflow
       - title: "pytorch"
-        url: /ho/
-      - title: "BoostCamp"
+        url: categories/pytorch
+      - title: "boostcamp"
         url: categories/boostcamp
   - title: etc..
     children:
