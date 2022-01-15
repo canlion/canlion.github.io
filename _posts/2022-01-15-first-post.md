@@ -65,7 +65,7 @@ last_modified_at: 2021-01-15
       </script>
       ```
   * [ ] 사이드바 추가하기
-    * [ ] 카테고리 추가하기
+    * [x] 카테고리 추가하기
     * [ ] 태그 추가하기
   * [x] 포스트 날짜 형식 수정
     * 출처: [민한님 블로그](https://minhaaan.github.io/blog/change_dateFormat/)
