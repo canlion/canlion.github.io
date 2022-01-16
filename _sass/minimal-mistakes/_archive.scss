@@ -74,7 +74,8 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  // font-size: $type-size-6;
+  font-size: 0.85em;
 
   & + p {
     text-indent: 0;
@@ -127,7 +128,7 @@
 .list__item {
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.6em;
+    font-size: 0.85em;
   }
 }
 
