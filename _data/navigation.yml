@@ -1,5 +1,5 @@
 # main links
-# main:
+main:
 #   - title: "Quick-Start Guide"
 #     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 #   - title: "About"
@@ -10,6 +10,11 @@
 #     url: /collection-archive/
 #   - title: "Sitemap"
 #     url: /sitemap/
+  - title: Tags
+    url: tags/
+  - title: Categories
+    url: categories/
+
 sidebar_category:
   - title: ML - Machine Learning
   - title: ML - Deep Learning
