@@ -20,6 +20,8 @@ sidebar_category:
         url: categories/pytorch
       - title: "boostcamp"
         url: categories/boostcamp
+      - title: "TensorRT"
+        url: categories/TensorRT
   - title: etc..
     children:
       - title: "blog"
