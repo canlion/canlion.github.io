@@ -24,7 +24,7 @@ last_modified_at: 2021-01-17 17:11
 * 벡터의 노름(norm)
   * 원점에서부터의 거리
   * norm의 종류
-    * 벡터: $$\boldsymbol{\mathrm{x}}=\begin{bmatrix}x_1\\x_2\\\vdots\\x_d\end{bmatrix}$$
+    * $\boldsymbol{\mathrm{x}}^\top=\begin{bmatrix}x_1&x_2&\cdots&x_d\end{bmatrix}$
     * L1 norm: $\lVert\boldsymbol{\mathrm{x}}\rVert_1=\sum^d_{i=1}\lvert x_i\rvert $, 성분 절대값의 합 = 좌표축을 따라 움직이는 거리의 합.
       * ```python3
         x = np.array([1, 2, 3])
