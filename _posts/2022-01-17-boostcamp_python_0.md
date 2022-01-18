@@ -1,5 +1,5 @@
 ---
-title: "day 1 - 파이썬 기초"
+title: "파이썬 - 기초"
 excerpt: "파이썬 개요, 환경 설정, Variables"
 
 categories:

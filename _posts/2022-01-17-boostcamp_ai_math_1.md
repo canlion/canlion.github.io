@@ -1,5 +1,5 @@
 ---
-title: "day 1 - 수학 기초"
+title: "AI Math 1 - 벡터"
 excerpt: "벡터, 노름(norm)"
 
 categories:
@@ -42,10 +42,10 @@ last_modified_at: 2021-01-17 17:11
   * norm의 종류에 따라 기하학적 성질 다름 - ex) 원 - 원점으로부터 같은 거리에 있는 점들
     * |L1                                                                |L2                                                                |
     |------------------------------------------------------------------|------------------------------------------------------------------|
-    |![l1](/assets/images/post/220117/boostcamp_day_1_math/l1_norm.png)|![l2](/assets/images/post/220117/boostcamp_day_1_math/l2_norm.png)|
+    |![l1](/assets/images/post/220117/boostcamp_ai_math_1/l1_norm.png)|![l2](/assets/images/post/220117/boostcamp_ai_math_1/l2_norm.png)|
   * 두 벡터 사이의 각 - 제 2 코사인 법칙
     * $\mathrm{cos}\theta = \frac{\lVert\boldsymbol{\mathrm{x}}\rVert^2_2+\lVert\boldsymbol{\mathrm{y}}\rVert^2_2-\lVert\boldsymbol{\mathrm{x-y}}\rVert^2_2}{2\lVert x\rVert_2\lVert y\rVert_2}=\frac{\boldsymbol{\mathrm{x}}\cdot\boldsymbol{\mathrm{y}}}{\lVert x\rVert_2\lVert y\rVert_2}$
 
 * 내적의 해석
   * 정사영된 벡터의 길이와 관련 - 정사영의 길이를 $\lVert\boldsymbol{\mathrm{y}}\rVert$만큼 조정
-    * ![내적](/assets/images/post/220117/boostcamp_day_1_math/dot_prod.png)
+    * ![내적](/assets/images/post/220117/boostcamp_ai_math_1/dot_prod.png)
