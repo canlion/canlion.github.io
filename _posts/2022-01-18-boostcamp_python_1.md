@@ -1,11 +1,11 @@
 ---
-title: "파이썬 - "
-excerpt: ""
+title: "파이썬 - 2-2 ~ 2-4"
+excerpt: "함수, 조건문, 문자열"
 
 categories:
   - boostcamp
 tags:
-  - []
+  - [boostcamp]
 
 toc: true
 toc_sticky: true
