@@ -138,7 +138,7 @@ $$
 
 손실함수: $\mathcal{L}$
 
-![back_prop](/assets/images/post/220119/boostcamp_ai_math_5/backprop.png){: .align-center}
+![back_prop](/assets/images/post/220119/boostcamp_ai_math_5/backprop_.png){: .align-center}
 
 $$\begin{matrix}
 \frac{\partial\mathcal{L}}{\partial{\mathrm{W}}^{(1)}_{ij}} & = & \sum_{l,r,k}
