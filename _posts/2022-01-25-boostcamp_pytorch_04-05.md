@@ -1,6 +1,6 @@
 ---
-title: "pytorch_04-05. PyTorch AutoGrad & Optimizer / "
-excerpt: "Module, Parameter, Optimizer / "
+title: "pytorch_04-05. PyTorch AutoGrad & Optimizer / dataset"
+excerpt: "Module, Parameter, Optimizer / Dataset"
 
 categories:
   - boostcamp
