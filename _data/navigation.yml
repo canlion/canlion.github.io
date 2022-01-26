@@ -31,4 +31,6 @@ sidebar_category:
     children:
       - title: "blog"
         url: categories/blog
+      - title: "english"
+        url: categories/english
       
