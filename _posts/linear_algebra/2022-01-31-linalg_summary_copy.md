@@ -1,6 +1,6 @@
 ---
-title: "선형대수"
-excerpt: "선형대수"
+title: "테스트 포스트.."
+excerpt: "테스트.."
 
 categories:
   - linear_algebra
@@ -10,8 +10,8 @@ tags:
 toc: true
 toc_sticky: true
 
-date: 2022-01-31 13:25
-last_modified_at: 2022-01-31 13:25
+date: 2022-01-31 19:25
+last_modified_at: 2022-01-31 19:28
 ---
 
 # 선형대수
