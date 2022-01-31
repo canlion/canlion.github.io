@@ -18,8 +18,8 @@ main:
 sidebar_category:
   - title: Math
     children:
-      - title: "linalg"
-        url: categories/linalg
+      - title: "linear_algebra"
+        url: categories/linear_algebra
   - title: ML - Machine Learning
   - title: ML - Deep Learning
     children:

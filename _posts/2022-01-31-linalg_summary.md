@@ -3,9 +3,9 @@ title: "선형대수 복습 & 정리"
 excerpt: "선형대수 정리하기"
 
 categories:
-  - linalg
+  - linear_algebra
 tags:
-  - [linalg]
+  - [linear_algebra]
 
 toc: true
 toc_sticky: true
