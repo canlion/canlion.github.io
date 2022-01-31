@@ -16,6 +16,10 @@ main:
     url: categories/
 
 sidebar_category:
+  - title: Math
+    children:
+      - title: "linalg"
+        url: categories/linalg
   - title: ML - Machine Learning
   - title: ML - Deep Learning
     children:
