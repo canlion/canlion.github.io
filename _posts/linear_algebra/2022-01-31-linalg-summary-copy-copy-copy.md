@@ -10,8 +10,8 @@ tags:
 toc: true
 toc_sticky: true
 
-date: 2022-01-31 18:25
-last_modified_at: 2022-01-31 18:28
+date: 2022-01-31T18:25:00
+last_modified_at: 2022-01-31T18:28:00
 ---
 
 # 선형대수
