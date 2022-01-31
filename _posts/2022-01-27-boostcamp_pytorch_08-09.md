@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-01-27 10:49
-last_modified_at: 2021-01-27 10:49
+last_modified_at: 2022-01-27 10:49
 ---
 
 # Multi-GPU 학습

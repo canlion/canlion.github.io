@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-01-17 17:11
-last_modified_at: 2021-01-17 17:11
+last_modified_at: 2022-01-17 17:11
 ---
 # 벡터
 * 숫자를 원소로 가지는 리스트 또는 배열

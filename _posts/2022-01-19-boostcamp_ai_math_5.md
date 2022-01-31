@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-01-19 17:45
-last_modified_at: 2021-01-19 17:45
+last_modified_at: 2022-01-19 17:45
 ---
 
 # 신경망

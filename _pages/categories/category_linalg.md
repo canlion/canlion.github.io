@@ -1,7 +1,6 @@
 ---
 title: "linalg"
 layout: archive
-# layout: categories
 permalink: categories/linalg
 author_profile: true
 sidebar_main: true

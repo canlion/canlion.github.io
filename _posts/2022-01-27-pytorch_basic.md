@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-01-27 17:43
-last_modified_at: 2021-01-27 17:43
+last_modified_at: 2022-01-27 17:43
 ---
 [link:파이토치 튜토리얼](https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html){: .btn .btn--success}
 

@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-01-18 14:59
-last_modified_at: 2021-01-18 14:59
+last_modified_at: 2022-01-18 14:59
 ---
 # 경사하강법
 ## 미분

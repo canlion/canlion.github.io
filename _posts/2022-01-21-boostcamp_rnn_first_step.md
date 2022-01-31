@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-01-21 13:38
-last_modified_at: 2021-01-21 13:38
+last_modified_at: 2022-01-21 13:38
 ---
 # RNN
 

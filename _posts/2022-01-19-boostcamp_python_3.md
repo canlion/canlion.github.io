@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-01-19 13:04
-last_modified_at: 2021-01-19 13:04
+last_modified_at: 2022-01-19 13:04
 ---
 # 자료구조
 데이터를 효율적으로 관리하고 다루기 위한 데이터의 구조화 방식

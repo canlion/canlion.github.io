@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-01-18 11:36
-last_modified_at: 2021-01-18 11:36
+last_modified_at: 2022-01-18 11:36
 ---
 ## 함수
 * 캡슐화: 내부 로직을 몰라도 인터페이스만으로 타인의 코드 사용 가능
