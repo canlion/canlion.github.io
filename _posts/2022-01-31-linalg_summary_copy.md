@@ -1,6 +1,6 @@
 ---
-title: "선형대수 복습 & 정리"
-excerpt: "선형대수 정리하기"
+title: "선형대수"
+excerpt: "선형대수"
 
 categories:
   - linear_algebra
