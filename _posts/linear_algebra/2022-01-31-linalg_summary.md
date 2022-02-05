@@ -77,3 +77,91 @@ $\mathbb{R}^3$의 3개 벡터가 일차독립이면 기저이므로 $\boldsymbol
 * $\boldsymbol{A}=\boldsymbol{CMR}$의 $\boldsymbol{R}$은 $\boldsymbol{A}$ 독립인 행을 그대로 가져오고 $r\times r$ 혼합행렬 $\boldsymbol{M}$이 중계역할을 해준다.
 * $\boldsymbol{M}=(\boldsymbol{C^\top C})^{-1}(\boldsymbol{C^\top A R^\top})(\boldsymbol{RR^\top})^{-1}$
 * 행렬이 크면 클수록 $\boldsymbol{A}=\boldsymbol{CR}$, $\boldsymbol{A}=\boldsymbol{CMR}$이 중요. $\boldsymbol{A}$의 데이터를 유지하는 성질.
+
+
+## 1.2 $\boldsymbol{AB}$
+
+\# 행렬곱, 열과 행의 곱
+
+<br>
+🌝. 내적을 이용한 행렬의 곱셈: $\boldsymbol{AB=C}$, $c_{ij}=\sum_{k=1}^n a_{ik}b_{kj}$
+
+$\boldsymbol{C}$의 $i$행, $j$열 성분은 $\boldsymbol{A}$의 $i$행과 $\boldsymbol{B}$의 $j$열의 내적
+
+$\boldsymbol{A}=(m\times n), \boldsymbol{B}=(n\times p)$라면 곱셈 횟수는 $mnp$.  $n$번의 곱셈 연산이 필요한 행과 열의 내적이 $mp$번 필요함.
+
+🌝. 열벡터와 행벡터의 곱셈 = 랭크 1인 행렬
+
+$$\boldsymbol{uv}^\top=
+\begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}
+\begin{bmatrix} 4 & 5 & 6 \end{bmatrix} =
+\begin{bmatrix} 4 & 5 & 6 \\ 8 & 10 & 12 \\ 12 & 15 & 18 \end{bmatrix}$$
+
+영행렬이 아닌 $\boldsymbol{uv}^\top$는 모든 열이 $\boldsymbol{u}$의 배수, 모든 행이 $\boldsymbol{v}^\top$의 배수: 랭크 1인 행렬
+
+🌝. $\boldsymbol{AB}$ = 랭크 1인 행렬의 합
+
+$$
+\boldsymbol{AB}=
+\begin{bmatrix}
+  | & & | \\
+  \boldsymbol{a}_1 & \cdots & \boldsymbol{a}_n \\
+  | & & | \\
+\end{bmatrix}
+\begin{bmatrix}
+  - & \boldsymbol{b}^*_1 & - \\
+  & \vdots & \\
+  - & \boldsymbol{b}^*_n & - \\
+\end{bmatrix} =
+\sum_{k=1}^n \boldsymbol{a}_k\boldsymbol{b}^*_k
+$$
+
+$\boldsymbol{A}$의 열들을 선형결합하여 $\boldsymbol{AB}$의 $j$번째 열을 만들 때 $\boldsymbol{a}_k$의 계수는 $\boldsymbol{b}^*_k$의 $j$번째 성분이다.
+
+= $\boldsymbol{b}^*_k$의 $j$번째 성분은 $\boldsymbol{AB}$의 $j$번째 열을 만들 때 필요한 $\boldsymbol{a}_k$의 수이다.
+
+필요한 곱셈 연산 횟수는 마찬가지로 $mnp$. $mp$만큼의 곱셈이 필요한 랭크 1 행렬 계산이 $n$번 필요함.
+
+$c_{ij}=\sum_{k=1}^n a_{ik}b_{kj}$ = $\boldsymbol{a}_k\boldsymbol{b}^*_k$의 $(i, j)$ 성분을 모두 더하기
+
+🌝. $\boldsymbol{S}=\boldsymbol{Q\Lambda Q}^\top$
+
+행렬 분해의 한 종류. $\boldsymbol{S}=\boldsymbol{S}^\top$는 대칭 행렬. **모든 대칭행렬은 $n$개의 실수 고윳값과 $n$개의 정규직교인 고유벡터를 가진다.**
+
+**고윳값, 고유벡터, 직교벡터**
+
+* 행렬의 고유벡터는 행렬에 곱해도 방향이 바뀌지 않고 고윳값 $\lambda$에 의해 크기만 변하는 벡터.
+
+$$\boldsymbol{Sx} = \lambda\boldsymbol{x}$$
+
+* 정규직교인 벡터들은 서로 직교이고 크기가 1인 벡터들이다.
+
+$$\boldsymbol{q}_i \cdot \boldsymbol{q}_j = \begin{cases} 0 & (i \neq j) \\ 1 & (i = j) \end{cases}$$
+
+$\boldsymbol{S}$는 대칭행렬, $\boldsymbol{Q}$는 $\boldsymbol{S}$의 직교 단위 고유벡터 $\boldsymbol{q}_1,\cdots, \boldsymbol{q}_n$이 열인 직교행렬이다.
+
+$$
+\boldsymbol{SQ}=
+\boldsymbol{S}\begin{bmatrix}
+  \boldsymbol{q}_1 & \cdots & \boldsymbol{q}_n
+\end{bmatrix}=
+\begin{bmatrix}
+  \lambda_1\boldsymbol{q}_1 & \cdots & \lambda_n\boldsymbol{q}_n
+\end{bmatrix}=
+\begin{bmatrix}
+  \boldsymbol{q}_1 & \cdots & \boldsymbol{q}_n
+\end{bmatrix}
+\begin{bmatrix}
+\lambda_1 & & \\
+& \ddots & \\
+& & \lambda_n
+\end{bmatrix}
+=
+\boldsymbol{Q\Lambda}
+$$
+
+$\boldsymbol{\Lambda}$는 대각성분이 $\boldsymbol{S}$의 고윳값인 대각행렬이다. 대각행렬 $\boldsymbol{\Lambda}$의 왼쪽에 행렬을 곱하면 행렬의 각 열에 각 $\lambda_i$를 곱하는 것이고, 오른쪽에 행렬을 곱하면 행렬의 각 행에 각 $\lambda_i$를 곱하는 것이다. (열과 행의 곱)
+
+$\boldsymbol{Q}$는 직교 행렬이므로 $\boldsymbol{Q^\top Q}=\boldsymbol{I}, \boldsymbol{Q}^{-1}=\boldsymbol{Q}^\top$
+
+$\boldsymbol{S}=\boldsymbol{Q\Lambda Q}^\top$에서 각 $\lambda_k$와 $\boldsymbol{q}_k$는 랭크 1인 행렬 $\lambda_k\boldsymbol{q}_k\boldsymbol{q}^\top_k$을 만들고 이 행렬은 대칭행렬이다.
