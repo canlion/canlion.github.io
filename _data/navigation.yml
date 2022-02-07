@@ -27,14 +27,21 @@ sidebar_category:
         url: categories/tensorflow
       - title: "pytorch"
         url: categories/pytorch
-      - title: "boostcamp"
-        url: categories/boostcamp
+      # - title: "boostcamp"
+        # url: categories/boostcamp
       - title: "TensorRT"
         url: categories/TensorRT
   - title: boostcamp
     children:
+      - title: "Python Basic & AI Math"
+        url: categories/boostcamp
+        ho: "boostcamp"
+      - title: "PyTorch Basic"
+        url: categories/boostcamp-PyTorch-Basic
+        ho: "boostcamp PyTorch Basic"
       - title: "DL Basic"
         url: categories/boostcamp-DL-Basic
+        ho: "boostcamp DL Basic"
   - title: etc..
     children:
       - title: "blog"
