@@ -1,11 +1,11 @@
 ---
-title: "linear_algebra"
+title: "boostcamp - DL Basic"
 layout: archive
-permalink: categories/linear_algebra
+permalink: categories/boostcamp-DL-Basic
 author_profile: true
 sidebar_main: true
 ---
 
 
-{% assign posts = site.categories.linear_algebra %}
+{% assign posts = site.categories['DL Basic'] %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

@@ -18,8 +18,8 @@ main:
 sidebar_category:
   - title: Math
     children:
-      - title: "linear_algebra"
-        url: categories/linear_algebra
+      - title: "linear algebra"
+        url: categories/linear-algebra
   - title: ML - Machine Learning
   - title: ML - Deep Learning
     children:
@@ -31,6 +31,10 @@ sidebar_category:
         url: categories/boostcamp
       - title: "TensorRT"
         url: categories/TensorRT
+  - title: boostcamp
+    children:
+      - title: "DL Basic"
+        url: categories/boostcamp-DL-Basic
   - title: etc..
     children:
       - title: "blog"
