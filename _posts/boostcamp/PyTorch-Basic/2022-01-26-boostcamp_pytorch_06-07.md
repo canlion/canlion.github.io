@@ -3,9 +3,9 @@ title: "pytorch_06-07. 모델 불러오기 / 모니터링 도구"
 excerpt: "transfer learning, state_dict / tensorboard, w&b"
 
 categories:
-  - boostcamp
+  - boostcamp PyTorch Basic
 tags:
-  - [boostcamp]
+  - [boostcamp, boostcamp PyTorch Basic]
 
 toc: true
 toc_sticky: true

@@ -3,9 +3,9 @@ title: "pytorch_01-03. PyTorch Introduction / Basics / Project"
 excerpt: "딥러닝 프레임워크 종류 / 파이토치 작동 구조 / 기초"
 
 categories:
-  - boostcamp
+  - boostcamp PyTorch Basic
 tags:
-  - [boostcamp]
+  - [boostcamp, boostcamp PyTorch Basic]
 
 toc: true
 toc_sticky: true

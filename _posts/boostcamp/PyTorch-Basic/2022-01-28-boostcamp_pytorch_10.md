@@ -3,9 +3,9 @@ title: "pytorch_10. pytorch troubleshooting"
 excerpt: "OOM 예시와 해결방법 / GPU 메모리 디버깅 툴"
 
 categories:
-  - boostcamp
+  - boostcamp PyTorch Basic
 tags:
-  - [boostcamp]
+  - [boostcamp, boostcamp PyTorch Basic]
 
 toc: true
 toc_sticky: true

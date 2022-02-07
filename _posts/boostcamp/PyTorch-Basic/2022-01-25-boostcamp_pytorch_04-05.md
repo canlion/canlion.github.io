@@ -3,9 +3,9 @@ title: "pytorch_04-05. PyTorch AutoGrad & Optimizer / dataset"
 excerpt: "Module, Parameter, Optimizer / Dataset"
 
 categories:
-  - boostcamp
+  - boostcamp PyTorch Basic
 tags:
-  - [boostcamp]
+  - [boostcamp, boostcamp PyTorch Basic]
 
 toc: true
 toc_sticky: true

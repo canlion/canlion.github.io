@@ -3,9 +3,9 @@ title: "pytorch_08-09. multi-gpu / hp tuning"
 excerpt: "model parallel & data parallel / 파라미터 튜닝을 위한 Ray Tune"
 
 categories:
-  - boostcamp
+  - boostcamp PyTorch Basic
 tags:
-  - [boostcamp]
+  - [boostcamp, boostcamp PyTorch Basic]
 
 toc: true
 toc_sticky: true
