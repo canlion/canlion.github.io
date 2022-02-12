@@ -86,7 +86,7 @@ receptive field는 하나의 conv 값을 얻을 때 고려되는 입력의 spati
 
 레이어가 깊으면 깊을수록 학습이 힘들다.
 
-가중치가 매우 많은 모델은 오버피팅이 일어나기 쉽다. 그런데 레이어의 수가 아주 많은 모델의 경우 학습 loss와 테스트 loss가 수렴한 상태에서 레이어가 상대적으로 적은 모델보다 loss가 큰 현상이 발생한다. 즉, 깊은 모델이 학습이 덜 되었다.
+가중치가 매우 많은 모델은 오버피팅이 일어나기 쉽다. 그런데 레이어의 수가 아주 많은 모델의 경우 학습 loss와 테스트 loss가 수렴한 상태에서 레이어가 상대적으로 적은 모델보다 loss가 큰 현상이 발생한다. 즉, 깊은 모델이 학습이 덜 되었다. 층이 깊을수록 낮은 층의 레이어까지 그래디언트가 전달되기 힘든 그래디언트 소실문제가 원인이다.
 
 ![deeper net higher error](/assets/images/post/220212/boostcamp-DL-Basic-04-05/deeper_net_higher_error.png){: .align-center}
 
@@ -94,6 +94,8 @@ receptive field는 하나의 conv 값을 얻을 때 고려되는 입력의 spati
 {: .text-center}
 
 ResNet에서는 이런 문제를 **skip connection**을 도입해 완화한다.
+
+#### Residual block
 
 ![skip connection](/assets/images/post/220212/boostcamp-DL-Basic-04-05/skip_connection.png){: .align-center}
 
@@ -104,7 +106,9 @@ ResNet에서는 이런 문제를 **skip connection**을 도입해 완화한다.
 
 논문에서는 residual block은 $\boldsymbol{x}$에 더해줄 정보 $\mathcal{F}(\boldsymbol{x})$만 학습하므로 $\mathcal{H}(\boldsymbol{x})$를 학습하는 것보다 쉽다고 가정한다. (특히 identity mapping을 생각하면 conv 레이어의 가중치를 0으로 밀어버리면 간단하게 학습이 가능하다.)
 
-그래디언트가 skip connection을 통해 그래디언트가 흐르며 최소한의 값을 보장해 그래디언트 소실 문제를 해결한다.
+#### skip connection을 통한 그래디언트의 전달
+
+무엇보다 skip connection을 통해 낮은 층의 레이어까지 직접적으로 그래디언트가 흐르면서 가중치 최소한의 그래디언트 값을 보장해 그래디언트 소실 문제를 해결한다.
 
 
 ### DenseNet
