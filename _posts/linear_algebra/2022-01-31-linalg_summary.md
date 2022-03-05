@@ -11,7 +11,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-01-31T19:25:00+09:00
-last_modified_at: 2022-01-31T19:25:00+09:00
+last_modified_at: 2022-03-05T20:12:00+09:00
 ---
 
 # 선형대수
@@ -165,3 +165,38 @@ $\boldsymbol{\Lambda}$는 대각성분이 $\boldsymbol{S}$의 고윳값인 대�
 $\boldsymbol{Q}$는 직교 행렬이므로 $\boldsymbol{Q^\top Q}=\boldsymbol{I}, \boldsymbol{Q}^{-1}=\boldsymbol{Q}^\top$
 
 $\boldsymbol{S}=\boldsymbol{Q\Lambda Q}^\top$에서 각 $\lambda_k$와 $\boldsymbol{q}_k$는 랭크 1인 행렬 $\lambda_k\boldsymbol{q}_k\boldsymbol{q}^\top_k$을 만들고 이 행렬은 대칭행렬이다.
+
+
+## 1.3 네 가지 기본 부분공간
+
+\# 열공간, 행공간, 영공간, 좌영공간
+
+<br>
+
+🌝. $m \times n$ 행렬 $\boldsymbol{A}$는 2개의 $\mathbb{R}^m$ 부분공간과 2개의 $\mathbb{R}^n$ 부분공간을 갖는다.
+
+* 열공간 $C(\boldsymbol{A})$: $\boldsymbol{A}$의 열들의 모든 일차 결합 ($\subseteq \mathbb{R}^m$)
+* 행공간 $C(\boldsymbol{A}^\top)$: $\boldsymbol{A}$의 행들의 모든 일차 결합 ($\subseteq \mathbb{R}^n$)
+* 영공간 $N(\boldsymbol{A})$: $\boldsymbol{Ax}=\boldsymbol{0}$의 모든 해 ($\subseteq \mathbb{R}^n$)
+* 좌영공간 $N(\boldsymbol{A}^\top)$: $\boldsymbol{A^\top y}=\boldsymbol{0}$의 모든 해 ($\subseteq \mathbb{R}^m$)
+
+행공간과 영공간, 열공간과 좌영공간은 직교한다.
+
+🌝. 셈 법칙: $r$개의 독립인 일차방정식 $\boldsymbol{Ax}=\boldsymbol{0}$에는 일차독립인 해가 $n-r$개 있다.
+
+$\boldsymbol{A}$에 $r$개의 일차독립인 열이 있고 $n-r$개의 종속인 열들을 독립인 열들로 표현할 수 있다. 그러므로 영공간의 차원, 기저의 수가 $n-r$개.
+
+🌝. $\boldsymbol{AB}$와 $\boldsymbol{A} + \boldsymbol{B}$의 랭크
+* $\text{rank}(\boldsymbol{AB})\leq \text{rank}(\boldsymbol{A}), \text{rank}(\boldsymbol{B})$
+  * $\boldsymbol{AB}$는 $\boldsymbol{A}$의 열들의 일차결합으로 $C(\boldsymbol{AB})\subseteq C(\boldsymbol{A})$
+  * $\boldsymbol{AB}$는 $\boldsymbol{B}$의 행들의 일차결합으로 $C((\boldsymbol{AB})^\top)\subseteq C(\boldsymbol{B}^\top)$
+* $\text{rank}(\boldsymbol{A}+\boldsymbol{B}) \leq \text{rank}(\boldsymbol{A}) + \text{rank}(\boldsymbol{B})$
+  * 두 행렬의 합은 열들의 결합으로 각 행렬 열공간 기저의 결합이다.
+* $\text{rank}(\boldsymbol{A^\top A})=\text{rank}(\boldsymbol{AA^\top})=\text{rank}(\boldsymbol{A})=\text{rank}(\boldsymbol{A}^\top)$
+  * $N(\boldsymbol{A^\top A}) = N(\boldsymbol{A})$
+    * $\boldsymbol{Ax}=0$이면 $\boldsymbol{A^\top Ax}=0, N(\boldsymbol{A})\subseteq N(\boldsymbol{A^\top A})$ 
+    * $\boldsymbol{A^\top Ax}=0$이면 $\boldsymbol{x^\top A^\top Ax}=(\boldsymbol{Ax})^\top\boldsymbol{Ax}=\Vert\boldsymbol{Ax}\Vert^2=0$이므로 $\boldsymbol{Ax}=0, N(\boldsymbol{A^\top A})\subseteq N(\boldsymbol{A})$
+* $m \times r$인 $\boldsymbol{A}$와 $r \times n$인 $\boldsymbol{B}$의 랭크가 $r$이면 $\text{rank}(\boldsymbol{AB})=r$
+  * $\text{rank}(\boldsymbol{A^\top A})=\text{rank}(\boldsymbol{BB^\top})=r$이므로 $\boldsymbol{A^\top A, BB^\top}$은 가역행렬. 가역행렬끼리의 곱도 가역행렬이므로 $r = \text{rank}(\boldsymbol{A^\top ABB^\top}) \leq \text{rank}(\boldsymbol{ABB^\top}) \leq \text{rank}(\boldsymbol{AB}) \leq \text{rank}(\boldsymbol{A}) = r$
+
+랭크가 $r$인 행렬끼리 곱한다고 무조건 랭크가 $r$인 것은 아니다.
