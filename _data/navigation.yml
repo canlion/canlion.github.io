@@ -16,10 +16,14 @@ main:
     url: categories/
 
 sidebar_category:
-  - title: Math
+  - title: 수학
     children:
       - title: "linear algebra"
         url: categories/linear-algebra
+  - title: 언어
+    children:
+      - title: python
+        url: categories/python
   - title: ML - Machine Learning
   - title: ML - Deep Learning
     children:
