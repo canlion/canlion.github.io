@@ -18,7 +18,7 @@ last_modified_at: 2022-02-08T21:11:00+09:00
 
 ## Generalization
 
-![generalization gap](/assets/images/post/220208/boostcamp-DL-Basic-03.01.01/generalization_gap.png){: .align-center}
+![generalization gap](/assets/images/post/220208/boostcamp-DL-Basic-03.01/generalization_gap.png){: .align-center}
 
 일반화 성능. 학습된 모델이 처음 본 데이터에 얼마나 잘 대처하는지를 의미. 단순히 학습 loss의 감소가 좋은 모델을 의미하지 않는다. 아무리 학습 loss가 낮아 학습 데이터를 잘 처리한다해도 처음 보는 데이터에 제대로 작동하지않으면 곤란함.
 
