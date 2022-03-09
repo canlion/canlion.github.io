@@ -81,7 +81,7 @@ unlabeled 데이터를 사용한다. 입력된 데이터에 대해서 모델이 
 
 ![teacher and student - labeled](/assets/images/post/220309/boostcamp-CV-2/teacher_student_labeled.jpg){: .align-center}
 
-라벨이 있는 데이터가 있다면 Student 모델이 Teacher 모델의 출력을 모방하도록 하면서도 실제 출력도 맞출 수 있도록 학습시킨다.
+라벨이 있는 데이터가 있다면 Student 모델이 Teacher 모델의 출력을 모방하도록 하면서도 실제 라벨도 맞출 수 있도록 학습시킨다.
 
 distilation loss(KL div. loss)에서는 주어진 데이터의 실제 라벨은 신경쓰지 않는다. Teacher 모델이 전혀 접해보지 못한 도메인의 데이터이더라도 distilation loss의 목적은 Teacher의 행동을 Student가 모방하도록 하는 것이므로 정답을 맞추던 못 맞추던 중요하지 않다.
 
