@@ -46,6 +46,9 @@ sidebar_category:
       - title: "DL Basic"
         url: categories/boostcamp-DL-Basic
         ho: "boostcamp DL Basic"
+      - title: "CV"
+        url: categories/boostcamp-CV
+        ho: "boostcamp CV"
   - title: etc..
     children:
       - title: "blog"
