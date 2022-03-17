@@ -55,4 +55,6 @@ sidebar_category:
         url: categories/blog
       - title: "english"
         url: categories/english
+      - title: "잡담"
+        url: categories/small-talk
       
