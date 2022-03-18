@@ -15,7 +15,7 @@ last_modified_at: 2022-03-17T22:03:00+09:00
 ---
 # 0. Semantic segmentation & Instance segmentation & Panoptic segmentation
 
-![segmentation task 비교](/assets/images/post/220317/boostcamp-CV-6/compare_segmentation_tasks.jpg){: .align-center}
+![segmentation task 비교](/assets/images/post/220317/boostcamp-CV-7/compare_segmentation_tasks.jpg){: .align-center}
 
 출처: [Panoptic Segmentation](https://openaccess.thecvf.com/content_CVPR_2019/papers/Kirillov_Panoptic_Segmentation_CVPR_2019_paper.pdf)
 {: .text-center}
@@ -28,9 +28,9 @@ last_modified_at: 2022-03-17T22:03:00+09:00
 
 ## Mask R-CNN
 
-![mask r-cnn result](/assets/images/post/220317/boostcamp-CV-6/mask-r-cnn_result.jpg){: .align-center}
+![mask r-cnn result](/assets/images/post/220317/boostcamp-CV-7/mask-r-cnn_result.jpg){: .align-center}
 
-![mask r-cnn mask branch](/assets/images/post/220317/boostcamp-CV-6/mask-r-cnn_mask-branch.jpg){: .align-center}
+![mask r-cnn mask branch](/assets/images/post/220317/boostcamp-CV-7/mask-r-cnn_mask-branch.jpg){: .align-center}
 
 출처: [arXiv:1703.06870](https://arxiv.org/abs/1703.06870)
 {: .text-center}
@@ -43,7 +43,7 @@ last_modified_at: 2022-03-17T22:03:00+09:00
 
 ## YOLACT
 
-![yolact overview](/assets/images/post/220317/boostcamp-CV-6/yolact_overview.jpg){: .align-center}
+![yolact overview](/assets/images/post/220317/boostcamp-CV-7/yolact_overview.jpg){: .align-center}
 
 출처: [arXiv:1904.02689](https://arxiv.org/abs/1904.02689)
 {: .text-center}
@@ -61,7 +61,7 @@ last_modified_at: 2022-03-17T22:03:00+09:00
 
 ## YolactEdge
 
-![yolactedge overview](/assets/images/post/220317/boostcamp-CV-6/yolactedge_overview.jpg){: .align-center}
+![yolactedge overview](/assets/images/post/220317/boostcamp-CV-7/yolactedge_overview.jpg){: .align-center}
 
 출처: [arXiv:2012.12259](https://arxiv.org/abs/2012.12259)
 {: .text-center}
@@ -79,9 +79,9 @@ last_modified_at: 2022-03-17T22:03:00+09:00
 
 ## UPSNet
 
-![upsnet overview](/assets/images/post/220317/boostcamp-CV-6/upsnet_overview.jpg){: .align-center}
+![upsnet overview](/assets/images/post/220317/boostcamp-CV-7/upsnet_overview.jpg){: .align-center}
 
-![upsnet panoptic head](/assets/images/post/220317/boostcamp-CV-6/upsnet_panoptic_head.jpg){: .align-center}
+![upsnet panoptic head](/assets/images/post/220317/boostcamp-CV-7/upsnet_panoptic_head.jpg){: .align-center}
 
 출처: [arXiv:1901.03784](https://arxiv.org/abs/1901.03784)
 {: .text-center}
@@ -102,7 +102,7 @@ last_modified_at: 2022-03-17T22:03:00+09:00
 
 ## VPSNet (for video)
 
-![vpsnet overview](/assets/images/post/220317/boostcamp-CV-6/vpsnet_overview.jpg){: .align-center}
+![vpsnet overview](/assets/images/post/220317/boostcamp-CV-7/vpsnet_overview.jpg){: .align-center}
 
 출처: [arXiv:2006.11339](https://arxiv.org/abs/2006.11339)
 {: .text-center}
@@ -117,7 +117,7 @@ last_modified_at: 2022-03-17T22:03:00+09:00
 
 # 3. Landmark localization = Keypoint estimation
 
-![pose estimation](/assets/images/post/220317/boostcamp-CV-6/pose_estimation.jpg){: .align-center}
+![pose estimation](/assets/images/post/220317/boostcamp-CV-7/pose_estimation.jpg){: .align-center}
 
 출처: [arXiv:1611.08050](https://arxiv.org/abs/1611.08050)
 {: .text-center}
@@ -139,7 +139,7 @@ last_modified_at: 2022-03-17T22:03:00+09:00
   * 점 하나로 띡 표시하기엔 inference가 너무 어렵다.
   * 보통 키포인트 위치를 중심으로 가우시안 분포를 그려준다.
 
-![gaussian keypoint](/assets/images/post/220317/boostcamp-CV-6/gaussian_keypoint.jpg){: .align-center}
+![gaussian keypoint](/assets/images/post/220317/boostcamp-CV-7/gaussian_keypoint.jpg){: .align-center}
 
 출처: boostcamp ai tech - [CV]07. Landmark Localization
 {: .text-center}
@@ -150,7 +150,7 @@ $$G_\sigma(x, y)=\text{exp}\left(-\frac{(x-x_c)^2+(y-y_c)^2}{2\sigma^2}\right)$$
 
 ## Hourglass network
 
-![hourglass overview](/assets/images/post/220317/boostcamp-CV-6/hourglass_overview.jpg){: .align-center}
+![hourglass overview](/assets/images/post/220317/boostcamp-CV-7/hourglass_overview.jpg){: .align-center}
 
 출처: [arXiv:1603.06937](https://arxiv.org/abs/1603.06937)
 {: .text-center}
@@ -163,7 +163,7 @@ $$G_\sigma(x, y)=\text{exp}\left(-\frac{(x-x_c)^2+(y-y_c)^2}{2\sigma^2}\right)$$
 
 ### DensePose
 
-![densepose overview](/assets/images/post/220317/boostcamp-CV-6/densepose_overview.jpg){: .align-center}
+![densepose overview](/assets/images/post/220317/boostcamp-CV-7/densepose_overview.jpg){: .align-center}
 
 출처: [arXiv:1802.00434](https://arxiv.org/abs/1802.00434)
 {: .text-center}
@@ -177,7 +177,7 @@ $$G_\sigma(x, y)=\text{exp}\left(-\frac{(x-x_c)^2+(y-y_c)^2}{2\sigma^2}\right)$$
 
 ### RetinaFace
 
-![retinaface overview](/assets/images/post/220317/boostcamp-CV-6/retinaface_overview.jpg){: .align-center}
+![retinaface overview](/assets/images/post/220317/boostcamp-CV-7/retinaface_overview.jpg){: .align-center}
 
 출처: [arXiv:1905.00641](https://arxiv.org/abs/1905.00641)
 {: .text-center}
@@ -191,7 +191,7 @@ $$G_\sigma(x, y)=\text{exp}\left(-\frac{(x-x_c)^2+(y-y_c)^2}{2\sigma^2}\right)$$
 
 ## CornerNet
 
-![cornernet overview](/assets/images/post/220317/boostcamp-CV-6/cornernet_overview.jpg){: .align-center}
+![cornernet overview](/assets/images/post/220317/boostcamp-CV-7/cornernet_overview.jpg){: .align-center}
 
 출처: [arXiv:1808.01244](https://arxiv.org/abs/1808.01244)
 {: .text-center}
@@ -204,7 +204,7 @@ $$G_\sigma(x, y)=\text{exp}\left(-\frac{(x-x_c)^2+(y-y_c)^2}{2\sigma^2}\right)$$
 
 ### bbox = {Top-left, Bottom-right, Center}
 
-![centernet 0](/assets/images/post/220317/boostcamp-CV-6/centernet_0.jpg){: .align-center}
+![centernet 0](/assets/images/post/220317/boostcamp-CV-7/centernet_0.jpg){: .align-center}
 
 출처: [arXiv:1904.08189](https://arxiv.org/abs/1904.08189)
 {: .text-center}
@@ -215,9 +215,9 @@ $$G_\sigma(x, y)=\text{exp}\left(-\frac{(x-x_c)^2+(y-y_c)^2}{2\sigma^2}\right)$$
 
 ### bbox = {Width, Height, Center}
 
-![centernet 2](/assets/images/post/220317/boostcamp-CV-6/centernet_2.jpg){: .align-center}
+![centernet 2](/assets/images/post/220317/boostcamp-CV-7/centernet_2.jpg){: .align-center}
 
-![centernet 2 performance](/assets/images/post/220317/boostcamp-CV-6/centernet_2_performance.jpg){: .align-center}
+![centernet 2 performance](/assets/images/post/220317/boostcamp-CV-7/centernet_2_performance.jpg){: .align-center}
 
 출처: [arXiv:1904.07850](https://arxiv.org/abs/1904.07850)
 {: .text-center}
