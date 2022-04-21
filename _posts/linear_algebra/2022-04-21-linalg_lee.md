@@ -1,5 +1,5 @@
 ---
-title: "선형대수 입문강의 정리"
+title: "선형대수 입문 - 1강. 행렬과 행렬식"
 excerpt: "이상엽math 선형대수학 강의"
 
 categories:
