@@ -24,8 +24,8 @@ sidebar_category:
     children:
       - title: python
         url: categories/python
-  - title: ML - Machine Learning
-  - title: ML - Deep Learning
+  - title: ML - 머신러닝
+  - title: ML - 딥러닝
     children:
       - title: "tensorflow"
         url: categories/tensorflow
@@ -35,6 +35,10 @@ sidebar_category:
         # url: categories/boostcamp
       - title: "TensorRT"
         url: categories/TensorRT
+  - title: 논문
+    children:
+      - title: "segmentation"
+        url: categories/paper-segmentation
   - title: boostcamp
     children:
       - title: "Python Basic & AI Math"
