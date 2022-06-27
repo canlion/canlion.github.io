@@ -54,6 +54,9 @@ sidebar_category:
       - title: "CV"
         url: categories/boostcamp-CV
         ho: "boostcamp CV"
+      - title: "데이터 제작"
+        url: categories/boostcamp-data
+        ho: "boostcamp 데이터 제작"
   - title: etc..
     children:
       - title: "blog"
