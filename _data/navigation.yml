@@ -37,7 +37,10 @@ sidebar_category:
         url: categories/TensorRT
   - title: 논문
     children:
-      - title: "segmentation"
+      - title: "분류"
+        url: categories/paper-classification
+        ho: "논문-classification"
+      - title: "세그멘테이션"
         url: categories/paper-segmentation
         ho: "논문-segmentation"
   - title: boostcamp
