@@ -110,7 +110,7 @@ mlflow server \
 
 `<dialect>+<driver>://<username>:<password>@<host>:<port>/<database>` 형식을 따른다. 나는 cloud SQL에 mlflow_account 계정을 생성하고 비밀번호를 1234로 설정했다. 그리고 mlflow_db 라는 이름으로 데이터베이스를 생성했다. 그래서 다음과 같이 입력한다. 포트는 불필요.
 
-* postgresql://mlflow-account:1234@{cloud SQL IP주소}/mlflow-db
+* postgresql://mlflow_account:1234@{cloud SQL IP주소}/mlflow_db
 
 **cloud storage URI**
 
