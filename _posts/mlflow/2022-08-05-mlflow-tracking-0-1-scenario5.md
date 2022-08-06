@@ -1,5 +1,5 @@
 ---
-title: "Tracking-0-1] GCP + remote tracking server"
+title: "GCP에 tracking server 구축하기"
 excerpt: ""
 
 categories:
