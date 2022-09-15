@@ -47,6 +47,9 @@ sidebar_category:
       - title: "세그멘테이션"
         url: categories/paper-segmentation
         ho: "논문-segmentation"
+      - title: "YOLO"
+        url: categories/paper-yolo
+        ho: "논문-YOLO"
   - title: boostcamp
     children:
       - title: "Python Basic & AI Math"
