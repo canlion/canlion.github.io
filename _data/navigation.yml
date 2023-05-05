@@ -35,6 +35,10 @@ sidebar_category:
         # url: categories/boostcamp
       - title: "TensorRT"
         url: categories/TensorRT
+  - title: "이것저것"
+    children:
+      - title: "kaggle"
+        url: categories/kaggle
   - title: "?"
     children:
       - title: MLflow
