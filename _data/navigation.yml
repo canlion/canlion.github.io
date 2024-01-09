@@ -16,6 +16,10 @@ main:
     url: categories/
 
 sidebar_category:
+  - title: CS
+    children:
+      - title: "OS"
+        url: categories/OS
   - title: 수학
     children:
       - title: "linear algebra"
