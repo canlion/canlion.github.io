@@ -20,6 +20,8 @@ sidebar_category:
     children:
       - title: "OS"
         url: categories/OS
+      - title: "DB"
+        url: categories/DB
   - title: 수학
     children:
       - title: "linear algebra"
