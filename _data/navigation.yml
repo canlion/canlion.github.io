@@ -22,6 +22,10 @@ sidebar_category:
         url: categories/OS
       - title: "DB"
         url: categories/DB
+  - title: 백엔드
+    children:
+      - title: "http"
+        url: categories/http
   - title: 수학
     children:
       - title: "linear algebra"
