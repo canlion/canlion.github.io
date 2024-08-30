@@ -26,6 +26,9 @@ sidebar_category:
     children:
       - title: "http"
         url: categories/http
+      - title: "아키텍처"
+        url: categories/architecture
+        ho: "아키텍처"
   - title: 수학
     children:
       - title: "linear algebra"
