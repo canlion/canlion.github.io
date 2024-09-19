@@ -14,8 +14,8 @@ tags:
 toc: true
 toc_sticky: true
 
-date: 2024-03-30
-last_modified_at: 2024-03-30
+date: 2024-08-31
+last_modified_at: 2024-08-31
 ---
 
 controller, service, repository가 무슨 역할을 하는지 대충 감은 오는데 <br/>
