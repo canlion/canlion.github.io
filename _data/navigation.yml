@@ -37,6 +37,8 @@ sidebar_category:
     children:
       - title: python
         url: categories/python
+      - title: java
+        url: categories/java
   - title: ML - 머신러닝
   - title: ML - 딥러닝
     children:
